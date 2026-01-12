@@ -50,10 +50,10 @@ export default function HomePage() {
               <div id="cta" className="mt-8 rounded-2xl border border-black/10 bg-white p-4 shadow-soft">
                 <div className="text-sm font-bold">Show Special</div>
                 <div className="mt-1 text-sm text-black/70">
-                  Fanservice-Style : <span className="font-semibold">Buy 2, Get 1 Free</span> Non-explicit. (in-booth only).
+                  Fanservice-Style : <span className="font-semibold">Buy 2, Get 1 Free</span> (in-booth only).
                 </div>
                 <div className="mt-2 text-xs text-black/50">
-                  18+ items are not displayed online and may be restricted by event policies.
+                  These figures feature stylized outfits or suggestive poses but are non-explicit. We follow event rules regarding display and any age restrictions.
                 </div>
               </div>
             </div>
