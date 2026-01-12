@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Brand tokens */
+:root {
+  --bg: #ffffff;      /* white */
+  --fg: #0b0b0f;      /* near-black */
+  --pink: #ff3ea5;    /* brand pink */
+}
+
+/* Optional: if you want to map vars into Tailwind theme tokens */
+@theme inline {
+  --color-background: var(--bg);
+  --color-foreground: var(--fg);
+  --color-brandPink: var(--pink);
+  --color-brandBlack: var(--fg);
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
+    "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+/* Nice selection highlight */
+::selection {
+  background: color-mix(in srgb, var(--pink) 25%, white);
+}
+::-moz-selection {
+  background: color-mix(in srgb, var(--pink) 25%, white);
+}
