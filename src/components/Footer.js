@@ -25,9 +25,9 @@ export default function Footer() {
           <div>
             <div className="font-bold">Contact</div>
             <p className="mt-2 text-sm text-black/70">
-              Email: <span className="font-semibold">hello@chusickitoys.com</span> (replace later)
+              Email: <span className="font-semibold">hello@chusicki.com</span> 
               <br />
-              Instagram: <span className="font-semibold">@chusickitoys</span> (replace later)
+              Instagram: <span className="font-semibold">@chusicki</span> 
             </p>
           </div>
         </div>

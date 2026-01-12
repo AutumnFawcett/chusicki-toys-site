@@ -14,7 +14,7 @@ export default function CatalogPage() {
           { title: "Standard Figures", range: "$40–$55", note: "Most popular booth pricing tier." },
           { title: "Premium / Limited", range: "$60–$80", note: "Larger, limited, or special editions." },
           { title: "Budget / Mystery", range: "$25–$40", note: "Small or special bundles (event-based)." },
-          { title: "18+ (In-Booth Only)", range: "Special offer", note: "Buy 2 get 1 free (where allowed)." },
+          { title: "Fanservice-Style (In-Booth Only)", range: "Special offer", note: "Non-explicit. Buy 2 get 1 free (in-booth only)." },
         ].map((c) => (
           <div key={c.title} className="rounded-3xl border border-black/10 bg-white p-6 shadow-soft">
             <div className="flex items-baseline justify-between gap-4">

@@ -26,10 +26,10 @@ export default function PoliciesPage() {
         </div>
 
         <div className="rounded-3xl border border-black/10 bg-white p-6 shadow-soft">
-          <div className="font-bold">18+ Items</div>
+          <div className="font-bold">Fanservice-Style Figures</div>
           <p className="mt-2 text-sm text-black/70">
-            Adult-themed items are in-booth only, may require ID, and may be restricted by event policies.
-            We do not display 18+ items online.
+              Some figures feature stylized outfits or suggestive poses but are non-explicit.
+              We follow event rules regarding display and any age restrictions.
           </p>
         </div>
 

@@ -34,7 +34,7 @@ export default function VendorPage() {
         <InfoRow label="Payments" value="Cash + card (Square). Card processing fee where permitted." />
         <InfoRow
           label="Special Offer"
-          value='Select 18+ items: "Buy 2, Get 1 Free" (in-booth only, subject to event policy)'
+          value='Select items: "Buy 2, Get 1 Free" (in-booth only)'
         />
       </div>
 
@@ -46,12 +46,12 @@ export default function VendorPage() {
           </p>
         </div>
 
-        <div className="rounded-3xl border border-black/10 bg-white p-6 shadow-soft">
-          <div className="font-bold">18+ Items</div>
-          <p className="mt-2 text-sm text-black/70">
-            Adult-themed items are in-booth only, may require ID, and will follow event rules
-            regarding display/visibility.
-          </p>
+        <div className="mt-1 text-sm text-black/70">
+                Select <span className="font-semibold">fanservice-style figures (non-explicit)</span>:{" "}
+                <span className="font-semibold">Buy 2, Get 1 Free</span> (in-booth only).
+            </div>
+            <div className="mt-2 text-xs text-black/50">
+             Some items may be age-restricted by event policy. We follow all convention vendor rules.
         </div>
 
         <div className="rounded-3xl border border-black/10 bg-white p-6 shadow-soft">
