@@ -5,7 +5,7 @@ const CATEGORIES = [
     title: "Standard Figures",
     range: "$40–$55",
     note: "Most popular booth pricing tier.",
-    img: "/images/catalog/standard.png",
+    img: "/images/catalog/chainsaw-man.png",
     alt: "Standard anime figures",
   },
   {
