@@ -59,7 +59,7 @@ export default function VendorPage() {
           <p className="mt-2 text-sm text-black/70">
             Email: <span className="font-semibold">hello@chusicki.com</span>
             <br />
-            Instagram: <span className="font-semibold">@chusickitoys</span>
+            Instagram: <span className="font-semibold">@chusicki</span>
           </p>
         </div>
       </div>

@@ -12,7 +12,11 @@ export default function ConventionsPage() {
         <div className="text-sm font-semibold text-black/60">Featured Event</div>
         <div className="mt-2 text-xl font-extrabold">Calgary Expo</div>
         <div className="mt-1 text-sm text-black/70">
-          April 23–26, 2026 • Stampede Park, Calgary
+          April 23–26, 2026 • Calgary Expo • Stampede Park, Calgary
+        </div>
+         <div className="mt-2 text-xl font-extrabold">Edmonton Expo</div>
+        <div className="mt-1 text-sm text-black/70">
+          September 18 - 20, 2026 • Edmonton Expo • Convention Centre, Edmonton 
         </div>
         <div className="mt-4 grid gap-3 md:grid-cols-2">
           <div className="rounded-2xl bg-brandPink/10 p-4">
@@ -33,7 +37,7 @@ export default function ConventionsPage() {
       </div>
 
       <div className="mt-6 text-sm text-black/60">
-        Want us at your event? Email <span className="font-semibold">hello@chusickitoys.com</span>.
+        Want us at your event? Email <span className="font-semibold">hello@chusicki.com</span>.
       </div>
     </div>
   );
